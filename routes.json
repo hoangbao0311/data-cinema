@@ -1,0 +1,3 @@
+{
+  "/films/:time": "/films?time=:time"
+}

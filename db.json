@@ -1,0 +1,184 @@
+{
+  "roles": [
+    {
+      "id": 1,
+      "value": "user",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "value": "value",
+      "userId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "hoangbao@gmail.com",
+      "fullname": "hoangbao",
+      "password": "123",
+      "rolesId": 2,
+      "phone": "hoangbao"
+    },
+    {
+      "id": 2,
+      "email": "hoangbao2@gmail.com",
+      "fullname": "hoangbao",
+      "password": "123",
+      "rolesId": 1
+    },
+    {
+      "fullname": "baodeptrai",
+      "email": "baodeptrai@gmail.com",
+      "password": "123",
+      "role": "user",
+      "id": 3
+    }
+  ],
+  "films": [
+    {
+      "id": 1,
+      "name": "ĐẤT RỪNG PHƯƠNG NAM",
+      "banner": "https://firebasestorage.googleapis.com/v0/b/cinema-booking-989b3.appspot.com/o/500x750_1695718316529.jpg?alt=media&token=6bfb22da-0037-466f-8bca-6456c226f389&_gl=1*100n4zk*_ga*MTkyMzQyMDY1OS4xNjk2OTM1MzYy*_ga_CW55HF8NVT*MTY5NjkzNTM2Mi4xLjEuMTY5NjkzNTczNC41MS4wLjA.",
+      "author": "Galaxy Play, Trấn Thành Town, HK Film",
+      "main_actor": "Hạo Khang, Hồng Ánh, Hứa Vĩ Văn, Tuấn Trần , Tiến Luật, Trấn Thành",
+      "description": "Đất Rừng Phương Nam phiên bản điện ảnh được kế thừa và phát triển từ tiểu thuyết cùng tên của nhà văn Đoàn Giỏi. Bộ phim kể về hành trình phiêu lưu của An - một cậu bé chẳng may mất mẹ trên đường đi tìm cha. Cùng với An, khán giả sẽ trải nghiệm sự trù phú của thiên nhiên và nét đẹp văn hoá đặc sắc của vùng đất Nam Kì Lục Tỉnh, sự hào hiệp của những người nông dân bám đất bám rừng và tinh thần yêunước kháng Pháp đầu thế kỉ 20. Bên cạnh đó, tình cảm gia đình, tình bạn, tình người, tình thầy trò, tình yêu nước là những cung bậc cảm xúc sâu sắc sẽ đọng lại qua mỗi bước chân của An và đồng bạn.",
+      "director": "Nguyễn Quang Dũng",
+      "startDay": "5/10/2023",
+      "time": "110",
+      "coutry": "Việt Nam",
+      "status": "Đang Chiếu"
+    },
+    {
+      "id": 2,
+      "name": "THE EXORCIST: BELIEVER",
+      "banner": "https://cdn.galaxycine.vn/media/2023/10/6/500-quy_1696582684371.jpg",
+      "author": "Jennifer Nettles, Leslie Odom Jr., Ellen Burstyn",
+      "main_actor": "Jennifer Nettles, Ellen Burstyn, Leslie Odom Jr.",
+      "description": "Phần tiếp theo của bộ phim năm 1973 kể về một cô bé 12 tuổi bị một thực thể ma quỷ bí ẩn chiếm hữu, buộc mẹ cô phải tìm đến sự giúp đỡ của hai linh mục để cứu cô",
+      "director": "David Gordon Green",
+      "startDay": "06/10/2023",
+      "time": "111",
+      "coutry": "Tiếng Anh",
+      "status": "Đang Chiếu"
+    },
+    {
+      "id": 3,
+      "name": "MỘNG DU",
+      "banner": "https://cdn.galaxycine.vn/media/2023/9/25/500x750_1695625144958.jpg",
+      "author": "Lewis Pictures",
+      "main_actor": "Jung Yu Mi, Lee Sun Kyun, Kim Gook Hee,...",
+      "description": "Được Bong Joon Ho nhận xét là phim kinh dị độc đáo nhất của thập kỷ, ngôi vương phòng vé Hàn Quốc - MỘNG DU xoay quanh chuỗi sự kiện ma quái quấy rối giấc ngủ của một cặp vợ chồng trẻ",
+      "director": "Jason Yu",
+      "startDay": "06/10/2023",
+      "time": "94 ",
+      "coutry": "Tiếng Hàn",
+      "status": "Sắp chiếu"
+    }
+  ],
+  "cinemas": [
+    {
+      "id": 1,
+      "name": "Nguyễn Du",
+      "address": "1 Nguyen Du"
+    },
+    {
+      "id": 2,
+      "name": "Quang Trung",
+      "address": "2 Quang Trung"
+    },
+    {
+      "id": 3,
+      "name": "Dong Da",
+      "address": "2 Dong Da"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "cinemasId": 1,
+      "seatId": 1,
+      "horizon": 12,
+      "vertical": 9
+    },
+    {
+      "id": 2,
+      "cinemasId": 1,
+      "seatId": 1,
+      "horizon": 8,
+      "vertical": 10
+    }
+  ],
+  "showtime": [
+    {
+      "id": 1,
+      "cinemasId": 1,
+      "filmsId": 1,
+      "roomsId": 2,
+      "starttime": "10:00",
+      "endtime": "12:00",
+      "stattus": "on"
+    },
+    {
+      "id": 2,
+      "cinemasId": 2,
+      "filmsId": 1,
+      "roomsId": 1,
+      "starttime": "12:00",
+      "endtime": "14:00",
+      "stattus": "on"
+    },
+    {
+      "id": 3,
+      "cinemasId": 1,
+      "filmsId": 2,
+      "roomsId": 1,
+      "starttime": "13:00",
+      "endtime": "14:00",
+      "stattus": "on"
+    },
+    {
+      "id": 4,
+      "cinemasId": 3,
+      "filmsId": 3,
+      "roomsId": 2,
+      "starttime": "13:00",
+      "endtime": "14:00",
+      "stattus": "on"
+    },
+    {
+      "id": 5,
+      "cinemasId": 1,
+      "filmsId": 1,
+      "roomsId": 2,
+      "starttime": "13:00",
+      "endtime": "14:00",
+      "stattus": "on"
+    },
+    {
+      "id": 6,
+      "cinemasId": 3,
+      "filmsId": 1,
+      "roomsId": 2,
+      "starttime": "13:00",
+      "endtime": "14:00",
+      "stattus": "on"
+    },
+    {
+      "id": 7,
+      "cinemasId": 3,
+      "filmsId": 1,
+      "roomsId": 2,
+      "starttime": "20:00",
+      "endtime": "14:00",
+      "stattus": "on"
+    }
+  ],
+  "seat": [
+    {
+      "id": 1,
+      "name": "1-1",
+      "status": "on"
+    }
+  ]
+}
