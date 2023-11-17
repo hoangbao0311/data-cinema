@@ -19,39 +19,14 @@
   ],
   "voucher": [
     {
-      "code": "aa",
-      "price": 10,
-      "id": 3
+      "code": "SALETHANG6",
+      "price": 50000,
+      "id": 10
     },
     {
-      "code": "ads",
-      "price": 20,
-      "id": 4
-    },
-    {
-      "code": "ads",
-      "price": 20,
-      "id": 5
-    },
-    {
-      "code": "as",
-      "price": 10,
-      "id": 6
-    },
-    {
-      "code": "dd",
-      "price": 10,
-      "id": 7
-    },
-    {
-      "code": "haha",
-      "price": 10,
-      "id": 8
-    },
-    {
-      "code": "aaa",
-      "price": 10000,
-      "id": 9
+      "code": "GIAM100",
+      "price": 100000,
+      "id": 11
     }
   ],
   "users": [
@@ -67,14 +42,14 @@
       "id": 2,
       "email": "hoangbao2@gmail.com",
       "fullname": "hoangbao",
-      "password": "123",
+      "password": "12345678",
       "rolesId": 1
     },
     {
       "fullname": "baodeptrai",
       "email": "baodeptrai@gmail.com",
-      "password": "123",
-      "role": "user",
+      "password": "12345678",
+      "rolesId": 3,
       "id": 3
     },
     {
@@ -84,7 +59,29 @@
       "role": "user",
       "id": 4,
       "resetpassword": "kwgk6",
-      "rolesId": 2
+      "rolesId": 1
+    },
+    {
+      "fullname": "Phạm Văn Lâm",
+      "email": "vanlam71nct@gmail.com",
+      "password": "12345678",
+      "rolesId": 1,
+      "resetpassword": "",
+      "id": 5
+    },
+    {
+      "fullname": "staff",
+      "email": "staff@gmail.com",
+      "password": "12345678",
+      "rolesId": 3,
+      "id": 6
+    },
+    {
+      "fullname": "admin",
+      "email": "admin@gmail.com",
+      "password": "12345678",
+      "rolesId": 2,
+      "id": 7
     }
   ],
   "films": [
@@ -124,8 +121,8 @@
       "main_actor": "Jung Yu Mi, Lee Sun Kyun, Kim Gook Hee,...",
       "description": "Được Bong Joon Ho nhận xét là phim kinh dị độc đáo nhất của thập kỷ, ngôi vương phòng vé Hàn Quốc - MỘNG DU xoay quanh chuỗi sự kiện ma quái quấy rối giấc ngủ của một cặp vợ chồng trẻ",
       "director": "Jason Yu",
-      "startDay": "2023-10-26",
-      "endDay": "2023-11-04",
+      "startDay": "2023-11-06",
+      "endDay": "2023-11-25",
       "time": "94 ",
       "coutry": "Tiếng Hàn",
       "status": "SC"
@@ -346,6 +343,259 @@
       "unitPrice": 12000,
       "stattus": "on",
       "id": 15
+    },
+    {
+      "cinemasId": 4,
+      "filmsId": 1,
+      "roomsId": 1,
+      "starttime": "12:00",
+      "endtime": "12:00",
+      "date": "2023-11-03",
+      "unitPrice": 1000,
+      "stattus": "on",
+      "id": 16
+    },
+    {
+      "cinemasId": 2,
+      "filmsId": 1,
+      "roomsId": 2,
+      "starttime": "12:00",
+      "endtime": "13:00",
+      "date": "2023-11-05",
+      "unitPrice": 1000,
+      "stattus": "on",
+      "id": 17
+    },
+    {
+      "cinemasId": 2,
+      "filmsId": 1,
+      "roomsId": 1,
+      "starttime": "08:00",
+      "endtime": "11:00",
+      "date": "2023-11-07",
+      "unitPrice": 12000,
+      "stattus": "on",
+      "id": 18
+    },
+    {
+      "cinemasId": 1,
+      "filmsId": 1,
+      "roomsId": 1,
+      "starttime": "12:00",
+      "endtime": "14:00",
+      "date": "2023-11-15",
+      "unitPrice": 1000,
+      "stattus": "on",
+      "id": 19
+    },
+    {
+      "cinemasId": 3,
+      "filmsId": 2,
+      "roomsId": 2,
+      "starttime": "12:00",
+      "endtime": "14:00",
+      "date": "2023-11-16",
+      "unitPrice": 1000,
+      "stattus": "on",
+      "id": 20
+    },
+    {
+      "cinemasId": 3,
+      "filmsId": 2,
+      "roomsId": 2,
+      "starttime": "12:00",
+      "endtime": "14:00",
+      "date": "2023-11-16",
+      "unitPrice": 1000,
+      "stattus": "on",
+      "id": 21
+    },
+    {
+      "cinemasId": 4,
+      "filmsId": 1,
+      "roomsId": 2,
+      "starttime": "12:00",
+      "endtime": "14:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 22
+    },
+    {
+      "cinemasId": 4,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "14:00",
+      "endtime": "16:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 23
+    },
+    {
+      "cinemasId": 4,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "16:00",
+      "endtime": "18:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 24
+    },
+    {
+      "cinemasId": 1,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "16:00",
+      "endtime": "18:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 25
+    },
+    {
+      "cinemasId": 2,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "16:00",
+      "endtime": "18:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 26
+    },
+    {
+      "cinemasId": 3,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "16:00",
+      "endtime": "18:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 27
+    },
+    {
+      "cinemasId": 1,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "08:00",
+      "endtime": "10:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 28
+    },
+    {
+      "cinemasId": 2,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "08:00",
+      "endtime": "10:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 29
+    },
+    {
+      "cinemasId": 3,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "08:00",
+      "endtime": "10:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 30
+    },
+    {
+      "cinemasId": 4,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "08:00",
+      "endtime": "10:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 31
+    },
+    {
+      "cinemasId": 1,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "10:00",
+      "endtime": "10:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 32
+    },
+    {
+      "cinemasId": 2,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "10:00",
+      "endtime": "10:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 33
+    },
+    {
+      "cinemasId": 3,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "10:00",
+      "endtime": "10:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 34
+    },
+    {
+      "cinemasId": 1,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "19:00",
+      "endtime": "21:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 35
+    },
+    {
+      "cinemasId": 2,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "19:00",
+      "endtime": "21:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 36
+    },
+    {
+      "cinemasId": 3,
+      "filmsId": 1,
+      "roomsId": 3,
+      "starttime": "19:00",
+      "endtime": "21:00",
+      "date": "2023-11-16",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 37
+    },
+    {
+      "cinemasId": 1,
+      "filmsId": 1,
+      "roomsId": 1,
+      "starttime": "12:00",
+      "endtime": "12:00",
+      "date": "2023-11-17",
+      "unitPrice": 65000,
+      "stattus": "on",
+      "id": 38
     }
   ],
   "seats": [
@@ -386,24 +636,12 @@
   ],
   "payment": [
     {
-      "id": 1,
-      "cinema": "Quang trung",
-      "code": 1123213,
-      "food": [],
-      "date": "10/10/2025",
-      "room": "A2",
-      "seat": [],
-      "showtime": 1,
-      "starttime": "12:00",
-      "status": "unpaid"
-    },
-    {
       "amount": 300000,
       "code": 71313994,
       "cinema": "Quang Trung",
       "room": "A1",
       "starttime": "12:00",
-      "date": "14/10/2023",
+      "date": "2023-14-10",
       "seat": [
         "7-10",
         "7-9",
@@ -417,7 +655,9 @@
           "price": 120000
         }
       ],
-      "showtime": 1,
+      "showtimesId": 1,
+      "filmsId": 1,
+      "usersId": 1,
       "status": "unpaid",
       "id": 9
     },
@@ -427,13 +667,15 @@
       "cinema": "Nguyễn Du",
       "room": "A2",
       "starttime": "10:00",
-      "date": "14/10/2023",
+      "date": "2023-10-14",
       "seat": [
         "2-9",
         "2-10"
       ],
       "food": [],
-      "showtime": 1,
+      "showtimesId": 1,
+      "filmsId": 1,
+      "usersId": 1,
       "status": "paid",
       "id": 10
     },
@@ -443,12 +685,14 @@
       "cinema": "Nguyễn Du",
       "room": "A2",
       "starttime": "10:00",
-      "date": "14/10/2023",
+      "date": "2023-10-14",
       "seat": [
         "4-10"
       ],
       "food": [],
-      "showtime": 1,
+      "showtimesId": 1,
+      "filmsId": 1,
+      "usersId": 1,
       "status": "paid",
       "id": 11
     },
@@ -458,12 +702,14 @@
       "cinema": "Nguyễn Du",
       "room": "A2",
       "starttime": "13:00",
-      "date": "14/10/2023",
+      "date": "2023-10-14",
       "seat": [
         "8-10"
       ],
       "food": [],
-      "showtime": 5,
+      "showtimesId": 1,
+      "filmsId": 1,
+      "usersId": 1,
       "status": "paid",
       "id": 12
     },
@@ -473,7 +719,7 @@
       "cinema": "Nguyễn Du",
       "room": "A2",
       "starttime": "10:00",
-      "date": "14/10/2023",
+      "date": "2023-10-14",
       "seat": [
         "1-10"
       ],
@@ -485,7 +731,9 @@
           "price": 80000
         }
       ],
-      "showtime": 1,
+      "showtimesId": 1,
+      "usersId": 1,
+      "filmsId": 1,
       "status": "paid",
       "id": 13
     },
@@ -495,12 +743,14 @@
       "cinema": "Dong Da",
       "room": "A2",
       "starttime": "13:00",
-      "date": "14/10/2023",
+      "date": "2023-10-14",
       "seat": [
         "1-1"
       ],
       "food": [],
-      "showtime": 6,
+      "showtimesId": 1,
+      "filmsId": 1,
+      "usersId": 1,
       "status": "paid",
       "id": 14
     },
@@ -510,12 +760,14 @@
       "cinema": "Nguyễn Du",
       "room": "A2",
       "starttime": "13:00",
-      "date": "14/10/2023",
+      "date": "2023-10-14",
       "seat": [
         "1-10"
       ],
       "food": [],
-      "showtime": 5,
+      "showtimesId": 1,
+      "filmsId": 1,
+      "usersId": 1,
       "status": "paid",
       "id": 15
     },
@@ -525,7 +777,7 @@
       "cinema": "Nguyễn Du",
       "room": "A2",
       "starttime": "10:00",
-      "date": "14/10/2023",
+      "date": "2023-10-14",
       "seat": [
         "1-10"
       ],
@@ -537,7 +789,9 @@
           "price": 20000
         }
       ],
-      "showtime": 1,
+      "showtimesId": 1,
+      "filmsId": 1,
+      "usersId": 1,
       "status": "paid",
       "id": 16
     },
@@ -547,7 +801,7 @@
       "cinema": "Nguyễn Du",
       "room": "A2",
       "starttime": "10:00",
-      "date": "14/10/2023",
+      "date": "2023-10-14",
       "seat": [
         "1-1"
       ],
@@ -565,7 +819,9 @@
           "price": 1000
         }
       ],
-      "showtime": 1,
+      "showtimesId": 1,
+      "filmsId": 1,
+      "usersId": 1,
       "status": "paid",
       "id": 17
     },
@@ -575,7 +831,7 @@
       "cinema": "Nguyễn Du",
       "room": "A2",
       "starttime": "10:00",
-      "date": "14/10/2023",
+      "date": "2023-10-14",
       "seat": [
         "1-2"
       ],
@@ -587,7 +843,9 @@
           "price": 1000
         }
       ],
-      "showtime": 1,
+      "showtimesId": 1,
+      "usersId": 1,
+      "filmsId": 1,
       "status": "paid",
       "id": 18
     },
@@ -602,12 +860,168 @@
         "4-8"
       ],
       "food": [],
-      "showtime": 1,
+      "showtimesId": 1,
+      "usersId": 1,
+      "filmsId": 1,
       "status": "paid",
       "id": 19
+    },
+    {
+      "amount": 2000,
+      "code": 1714457,
+      "cinema": "Nguyễn Du",
+      "room": "A1",
+      "starttime": "12:00",
+      "date": "2023-11-04",
+      "seat": [
+        "11-7"
+      ],
+      "food": [
+        {
+          "id": 1,
+          "foodname": "iCombo 2 Big Extra STD",
+          "quantity": "1",
+          "price": 1000
+        }
+      ],
+      "showtimesId": 1,
+      "usersId": 1,
+      "filmsId": 1,
+      "status": "paid",
+      "id": 20
+    },
+    {
+      "amount": 2000,
+      "code": 67780513,
+      "cinema": "Nguyễn Du",
+      "room": "A2",
+      "starttime": "15:00",
+      "date": "2023-11-03",
+      "seat": [
+        "5-10"
+      ],
+      "food": [
+        {
+          "id": 1,
+          "foodname": "iCombo 2 Big Extra STD",
+          "quantity": "1",
+          "price": 1000
+        }
+      ],
+      "showtimesId": 1,
+      "usersId": 1,
+      "filmsId": 1,
+      "status": "paid",
+      "id": 21
+    },
+    {
+      "amount": 1000,
+      "code": 20061830,
+      "cinema": "Quang Trung",
+      "room": "A2",
+      "starttime": "12:00",
+      "date": "2023-11-05",
+      "seat": [
+        "6-10"
+      ],
+      "food": [],
+      "showtimesId": 17,
+      "usersId": 4,
+      "filmsId": 1,
+      "status": "paid",
+      "id": 22
+    },
+    {
+      "amount": 1000,
+      "code": 90742101,
+      "cinema": "Quang Trung",
+      "room": "A2",
+      "starttime": "12:00",
+      "date": "2023-11-05",
+      "seat": [
+        "4-7"
+      ],
+      "food": [],
+      "showtimesId": 17,
+      "filmsId": 1,
+      "usersId": 1,
+      "status": "unpaid",
+      "id": 23
+    },
+    {
+      "amount": 67000,
+      "code": 23478712,
+      "cinema": "Đà Nẵng",
+      "room": "A2",
+      "starttime": "12:00",
+      "date": "2023-11-16",
+      "seat": [
+        "2-5"
+      ],
+      "food": [
+        {
+          "id": 1,
+          "foodname": "iCombo 2 Big Extra STD",
+          "quantity": "2",
+          "price": 1000
+        }
+      ],
+      "showtimesId": 22,
+      "usersId": 4,
+      "filmsId": 1,
+      "status": "unpaid",
+      "id": 24
+    },
+    {
+      "amount": 16000,
+      "code": 33442653,
+      "cinema": "Đà Nẵng",
+      "room": "A2",
+      "starttime": "12:00",
+      "date": "2023-11-16",
+      "seat": [
+        "3-8"
+      ],
+      "food": [
+        {
+          "id": 1,
+          "foodname": "iCombo 2 Big Extra STD",
+          "quantity": "1",
+          "price": 1000
+        }
+      ],
+      "showtimesId": 22,
+      "usersId": 4,
+      "filmsId": 1,
+      "status": "paid",
+      "id": 25
+    },
+    {
+      "amount": 16000,
+      "code": 47013953,
+      "cinema": "Nguyễn Du",
+      "room": "A1",
+      "starttime": "12:00",
+      "date": "2023-11-17",
+      "seat": [
+        "3-8"
+      ],
+      "food": [
+        {
+          "id": 1,
+          "foodname": "iCombo 2 Big Extra STD",
+          "quantity": "1",
+          "price": 1000
+        }
+      ],
+      "showtimesId": 38,
+      "usersId": 4,
+      "filmsId": 1,
+      "status": "unpaid",
+      "id": 26
     }
   ],
-  "ticket": [
+  "tickets": [
     {
       "id": 1,
       "showtimesId": 1,
@@ -664,291 +1078,111 @@
     {
       "showtimesId": 1,
       "usersId": 1,
-      "seatsId": 1,
+      "code": 69775514,
       "seat": [
-        "4-10"
+        "3-8"
       ],
       "id": 6
     },
     {
-      "showtimesId": 1,
+      "showtimesId": 17,
       "usersId": 1,
-      "seatsId": 1,
+      "code": 20061830,
       "seat": [
-        "2-9",
-        "2-10"
+        "6-10"
       ],
       "id": 7
     },
     {
-      "showtimesId": 6,
+      "showtimesId": 22,
       "usersId": 1,
-      "seatsId": 1,
+      "code": 33442653,
       "seat": [
-        "1-1"
+        "3-8"
       ],
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "filmsId": 1,
+      "star": 3,
+      "date": "2023-11-05",
+      "usersId": 1
+    },
+    {
+      "body": "Phim hay",
+      "filmsId": 2,
+      "star": 5,
+      "date": "2023-11-05",
+      "usersId": 1,
+      "id": 2
+    },
+    {
+      "body": "Phim bình thường",
+      "filmsId": 1,
+      "star": 4,
+      "date": "2023-11-05",
+      "usersId": 1,
+      "id": 3
+    },
+    {
+      "body": "Phim dở",
+      "filmsId": 2,
+      "star": 4,
+      "date": "2023-11-05",
+      "usersId": 1,
+      "id": 4
+    },
+    {
+      "body": "Tệ",
+      "filmsId": 2,
+      "star": 1,
+      "date": "2023-11-05",
+      "usersId": 1,
+      "id": 5
+    },
+    {
+      "body": "Phim hay nha, đáng để xem. Nhiều cú mình muốn rớt tim ra ngoài. Diễn viên đẹp, Kaity diễn hơi đơ xíu. Khúc cuối hơi lấn cấn. Nói chung nên xem thử",
+      "filmsId": 2,
+      "star": 5,
+      "date": "2023-11-05",
+      "usersId": 5,
+      "id": 6
+    },
+    {
+      "body": "Nếu phim ko liên hệ tới lịch sử và tác phẩm văn học thì sẽ cực thành công. Mình thấy bản thân rạo rực lòng yêu nước khi xem phim.",
+      "filmsId": 2,
+      "star": 3,
+      "date": "2023-11-05",
+      "usersId": 5,
+      "id": 7
+    },
+    {
+      "body": "Hay đối với bản thân tui",
+      "filmsId": 2,
+      "star": 4,
+      "date": "2023-11-05",
+      "usersId": 5,
       "id": 8
     },
     {
-      "showtimesId": 6,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-1"
-      ],
+      "body": "Phim hay và cảm xúc, nên đi xem để biết nhé mn",
+      "filmsId": 4,
+      "star": 5,
+      "date": "2023-11-05",
+      "usersId": 4,
       "id": 9
     },
     {
-      "showtimesId": 5,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-10"
-      ],
+      "body": "Bộ phim này so với bản gốc chỉ đc tầm 6-6,5đ thôi, vì rất nhiều nd bị dồn nén trong 90’ thì k thể diễn tả hết đc. Tuy nhiên vẫn ủng hộ phim Việt, các nv đều đóng okie, mãi mới nhận ra ô Mai Tài Phến",
+      "filmsId": 1,
+      "star": 4,
+      "date": "2023-11-05",
+      "usersId": 4,
       "id": 10
-    },
-    {
-      "showtimesId": 5,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-10"
-      ],
-      "id": 11
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-10"
-      ],
-      "id": 12
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-10"
-      ],
-      "id": 13
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-10"
-      ],
-      "id": 14
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-10"
-      ],
-      "id": 15
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-10"
-      ],
-      "id": 16
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-10"
-      ],
-      "id": 17
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-10"
-      ],
-      "id": 18
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-10"
-      ],
-      "id": 19
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-10"
-      ],
-      "id": 20
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-1"
-      ],
-      "id": 21
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-1"
-      ],
-      "id": 22
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-1"
-      ],
-      "id": 23
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-1"
-      ],
-      "id": 24
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-1"
-      ],
-      "id": 25
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-1"
-      ],
-      "id": 26
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-1"
-      ],
-      "id": 27
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-1"
-      ],
-      "id": 28
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-1"
-      ],
-      "id": 29
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-1"
-      ],
-      "id": 30
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-2"
-      ],
-      "id": 31
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "seatsId": 1,
-      "seat": [
-        "1-2"
-      ],
-      "id": 32
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "code": "69775514",
-      "seat": [
-        "4-8"
-      ],
-      "id": 33
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "code": "69775514",
-      "seat": [
-        "4-8"
-      ],
-      "id": 34
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "code": 69775514,
-      "seat": [
-        "4-8"
-      ],
-      "id": 35
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "code": 69775514,
-      "seat": [
-        "4-8"
-      ],
-      "id": 36
-    },
-    {
-      "showtimesId": 1,
-      "usersId": 1,
-      "code": 69775514,
-      "seat": [
-        "4-8"
-      ],
-      "id": 37
     }
   ]
 }
